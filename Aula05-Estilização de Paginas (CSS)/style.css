@@ -40,3 +40,29 @@ ul{
     margin: 20px;
     padding: 30px
 }
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 7px;
+}
+ /*Link normal*/
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+/* Link visitado*/
+a:visited{
+    color: yellow;
+}
+/* Quando o mouse passa por cima */
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 100px;
+}
+/* Enquanto o link é clicado */
+a:active {
+    color: orange;
+}
