@@ -1,0 +1,42 @@
+* { /*SELETOR UNIVERSAL*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.destaque {/*SELETOR POR CLASSE*/
+    color: blue;
+    font-weight: bold;
+}
+#titulo-principal {/*SELETOR POR ID*/
+    color: red;
+    text-align: center;
+}
+p{/*SELETOR POR ELEMENTO*/
+    font-size: 18px;
+    line-height: 1.5;
+}
+h1, h2, h3 {/*SELETOR POR GRUPO*/
+    font-family: Arial, sans-serif;
+    color: green;
+}
+h4 {
+    color: purple;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+ul{
+    list-style-type: square;
+    list-style-image: url("https://m.magazineluiza.com.br/a-static/420x420/sapo-branco-sentado-10cm-tasco/lojaazpresentes/3065p/cb3513942c5525bea2cef2767a7978cd.jpeg");
+    margin: 20px;
+    padding: 30px
+}
